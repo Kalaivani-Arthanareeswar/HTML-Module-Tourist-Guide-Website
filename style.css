@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Montserrat,"Helvetica Neue",sans-serif;
+}
+header
+{
+    margin-top: 35px;
+    position: sticky;
+    top: 0;
+    
+}
+nav
+{
+    height:60px;
+    width: 100%;
+    background-color: #ffff;
+    padding: 10px;
+
+}
+#tourist
+{
+    text-align: center;
+}
+nav ul li
+{
+    display:inline-block;
+    position: relative;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size:15px;
+    color:#222222;
+    display: block;
+    padding:10px 10px;
+    
+}
+ul li a:hover
+{
+    border-bottom: 3px #eb0000 solid;
+}
+ul li a i
+{
+    font-size: 11px;
+}
+ul li ul.latest li a,ul li ul.find li a,ul li ul.articles li a,ul li ul.tour li a,ul li ul.about li a
+{
+    color: rgb(37, 37, 37);
+    background-color:white;
+    text-align: left;width:210px;
+    padding: 10px 0px 10px 10px; border: none;
+}
+ul li ul.latest li a:hover,ul li ul.find li a:hover,ul li ul.articles li a:hover,ul li ul.tour li a:hover,ul li ul.about li a:hover
+{
+text-decoration: underline;
+}
+
+ul li ul.latest li,ul li ul.find li,ul li ul.articles li,ul li ul.tour li,ul li ul.about li
+{
+    display:block;
+}
+ul li ul.latest,ul li ul.find,ul li ul.articles,ul li ul.tour,ul li ul.about
+{
+position:absolute;
+z-index:1;
+display:none;
+width: 100%;
+}
+ul li:hover ul.latest,ul li:hover ul.find,ul li:hover ul.articles,ul li:hover ul.tour,ul li:hover ul.about
+{
+    display: block;
+}
+#tourist section
+{
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    box-shadow: inset 0px 0px 20px rgb(185, 185, 184);
+}
+article
+{
+    font-size: 14.5px;
+    line-height:1.7;
+    letter-spacing: 1px;
+    text-align:justify;
+    margin-left:270px;
+    margin-right: 270px;
+    color: #222222;
+}
+.heading
+{
+    font-size:17px;
+    font-weight:600;
+    color: #313131;
+}
+.sub-head
+{
+    font-size:15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+span a
+{
+color: #a71f50;font-weight: 600;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8
+{
+    margin-top: 20px;
+}
+.img1 h5
+{
+    padding-top:40px;
+}
+.img1 h5 a
+{
+   
+    color:#FF2828;
+    text-decoration: none;
+}
+.img1 h1
+{
+    margin-top: 20px;
+}
+.img1 p
+{
+    font-size:14px;
+    color:rgb(128, 126, 126);
+    margin:10px 0px 25px 0px;
+}
+.img1 p a
+{
+    text-decoration: none;
+    color:rgb(128, 126, 126);
+}
+.img1 p a:hover
+{
+    opacity: 0.6;
+    text-decoration: underline;
+}
+.img2 ul li,.img5 ul li
+{
+list-style-type: square;
+margin-left: 35px;
+}
+.img3 .quotes
+{
+    margin-left:20px;
+    margin-right:20px;
+    display: flex;
+}
+.img3 .quotes p,.img4 .quotes p
+{
+    color:#888888 ;
+    font-size:14.5px;
+    line-height: 1.7;
+    letter-spacing:1.2px;
+    font-style: italic;
+}
+.img3 .quotes i::before,.img4 .quotes i::before
+{
+    color:#00ab99;font-size: 25px;
+}
+.img7 .btm p
+{
+    color:#888888 ;
+    font-family:Monsterrat,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    font-style: italic;
+    margin-top: 7px;
+}
+.img8 p
+{ 
+    margin-top: 15px;
+    text-align: left;
+}
+.img9 h1,.img9
+{
+    margin:0 0 25px 0;
+}
+.social-media
+{
+    text-align: left;
+    margin-left:270px;
+}
+.social-media .fb i:hover
+{
+background-color: rgb(8, 8, 126);
+color:white;
+}
+.social-media .x i:hover
+{
+background-color:black;
+color:white;
+}
+.social-media .print i:hover
+{
+background-color:red;
+color:white;
+}
+.social-media a i
+{
+font-size: 16px;color: black;
+margin: 30px 0 30px 0;text-align: left;
+border: 1px solid black;
+border-radius: 50%;padding:10px;
+}
+.author .profile-pic 
+{
+margin-right:40px;
+height:150px;width: 150px;
+}
+.profile-pic img
+{
+    border:solid 1px black;
+    border-radius: 50%;
+    background-size: cover;
+    border: none;
+}
+.author .bio h5 a
+{
+    text-decoration: none;
+    color: #313131;
+    font-size: 14px;font-family:Monsterrat, sans-serif;
+    font-weight: bold;
+    
+}
+.author .bio h5 a:hover
+{
+    text-decoration: underline;
+}
+.author .bio p{
+    font-family:Monsterrat,"Helvetica Neue",sans-serif;
+    font-size: 16px;letter-spacing: 1.2px;line-height: 1.7; 
+    color:#222222
+   
+}   
+.author
+{
+    display: flex;
+    margin:65px 260px 65px 260px;
+    text-align:left;
+}
+.img10
+{
+    mix-blend-mode: multiply;
+    margin: 60px 0 80px 0;
+}
+.angle-up
+{
+    padding-bottom: 15px;
+}
+.angle-up a
+{
+    color: #313131;
+    text-decoration: none;
+    font-size: 13.5px;
+}
+.footer
+{
+    background-color:#292929;
+    color:white;
+    height:140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 25px;
+}
+.footer .logo
+{
+    display: flex;align-items: center;
+}
+.footer i
+{
+    font-size:25px;
+}
+.footer a
+{
+    color: #dbdada;
+}
+.footer p,.footer a
+{
+    font-size: 13px;
+    font-family:monospace;
+    font-weight:lighter;
+}
+.logo a:hover
+{
+    text-decoration:none;
+}
+
