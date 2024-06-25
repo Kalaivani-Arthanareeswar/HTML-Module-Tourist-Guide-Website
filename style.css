@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:Montserrat,"Helvetica Neue",sans-serif;
+    font-family:Monsterrat,"Helvetica Neue",sans-serif;
 }
 header
 {
@@ -70,7 +70,16 @@ z-index:1;
 display:none;
 width: 100%;
 }
-ul li:hover ul.latest,ul li:hover ul.find,ul li:hover ul.articles,ul li:hover ul.tour,ul li:hover ul.about
+ul.about ul.about-dd
+{
+    position:absolute;
+    z-index:1;
+    display:none;
+    left:210px;
+    top:20px;
+    width:100%;
+}
+ul li:hover ul.latest,ul li:hover ul.find,ul li:hover ul.articles,ul li:hover ul.tour,ul li:hover ul.about,ul.about li:hover ul.about-dd
 {
     display: block;
 }
@@ -223,7 +232,8 @@ height:150px;width: 150px;
 {
     text-decoration: none;
     color: #313131;
-    font-size: 14px;font-family:Monsterrat, sans-serif;
+    font-size: 14px;
+    font-family:Monsterrat, sans-serif;
     font-weight: bold;
     
 }
@@ -233,7 +243,9 @@ height:150px;width: 150px;
 }
 .author .bio p{
     font-family:Monsterrat,"Helvetica Neue",sans-serif;
-    font-size: 16px;letter-spacing: 1.2px;line-height: 1.7; 
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 1.7; 
     color:#222222
    
 }   
